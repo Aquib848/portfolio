@@ -52,7 +52,7 @@
     "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.17.14",
     "@splinetool/react-spline": "^4.1.0",
-    "@splinetool/runtime": "^1.10.32",
+    "@splinetool/runtime": "^1.10.64",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.5",
     "maath": "^0.10.8",
