@@ -8,7 +8,7 @@ import { cn } from "../utils/lib";
 export const Hero = () => {
   return (
     <section className="relative w-full min-h-screen mx-auto overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between h-screen">
+      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between py-20">
 
         {/* LEFT SIDE */}
         <div className="flex-1 flex flex-row items-start gap-5">
@@ -32,9 +32,9 @@ export const Hero = () => {
         </div>
 
         {/* RIGHT SIDE - SPLINE */}
-       <div className="flex-1 flex justify-center max-w-[600px]">
-          <Spline scene="https://prod.spline.design/QE2DqaCclcgmfMqP/scene.splinecode" />
-        </div>
+       <div className="flex-1 flex justify-center w-full max-w-[500px] h-[300px] sm:h-[400px] md:h-[500px]">
+  <Spline scene="https://prod.spline.design/QE2DqaCclcgmfMqP/scene.splinecode" />
+</div>
 
       </div>
     </section>
