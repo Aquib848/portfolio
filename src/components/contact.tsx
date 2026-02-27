@@ -97,9 +97,9 @@ export const Contact = () => {
         import.meta.env.VITE_APP_SERVICE_ID,
         import.meta.env.VITE_APP_TEMPLATE_ID,
         {
-          from_name: form.name,
-          to_name: "Shubham",
-          from_email: form.email.trim().toLowerCase(),
+          name: form.name,
+          to_name: "Aquib",
+          email: form.email.trim().toLowerCase(),
           to_email: import.meta.env.VITE_APP_EMAILJS_RECIEVER,
           message: form.message,
         },
