@@ -58,7 +58,7 @@ export const NAV_LINKS = [
   {
     id: "source-code",
     title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
+    link: "http://www.github.com/aquib848/portfolio/",
   },
 ] as const;
 
@@ -121,10 +121,6 @@ export const TECHNOLOGIES = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -177,18 +173,6 @@ export const EXPERIENCES = [
       "Integrated third-party APIs within plugins to enable dynamic data fetching, user authentication, and content automation features.",
       "Optimized plugin performance and security, implemented hooks, filters, and WordPress coding standards for seamless CMS integration",
       "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
   },
 ] as const;
@@ -361,21 +345,21 @@ export const SOCIALS = [
   {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    link: "https://www.youtube.com/",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/aquib-r-a-z-a-",
   },
   {
     name: "Twitter",
     icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "https://twitter.com",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/aquib848",
   },
 ] as const;

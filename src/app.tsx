@@ -8,10 +8,8 @@ import {
   Hero,
   Navbar,
   Tech,
-  Works,
   StarsCanvas,
 } from "./components";
-import Banner from "./components/banner";
 import Footer from "./components/footer";
 
 // App
@@ -28,7 +26,6 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <Works />
         <Feedbacks />
 
         {/* Contact */}
